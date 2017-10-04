@@ -12,6 +12,12 @@ html {
     box-sizing: border-box;
 }
 
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -43,26 +49,22 @@ a:hover {
     max-width: 950px;
     margin: 0 auto;
     padding: 30px;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .col-narrow {
     width: 30%;
     float: left;
     padding-right: 20px;
-    min-height: 120px;
+    min-height: 220px;
 }
 
 .col-wide {
     width: 70%;
-    /*float: left;*/
+    float: left;
     padding-left: 20px;
-    min-height: 120px;
+    min-height: 220px;
 }
-
-
-
-
 
 
 
@@ -81,20 +83,11 @@ header h2 {
 
 
 
-
-
-
-
 /*______Header_______________*/
 
 .profile-img {
     border-radius: 20%;
 }
-
-
-
-
-
 
 
 
@@ -111,10 +104,6 @@ footer {
 
 
 
-
-
-
-
 /*Work Experience
 ______________________________*/
 
@@ -123,9 +112,11 @@ ______________________________*/
 }
 
 
+/*Development*/
 
-
-
+.development {
+    background: #A9BCD0;
+}
 
 
 /*Education
