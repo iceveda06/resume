@@ -1,0 +1,96 @@
+/*Color Palette
+#D8DBE2 	Gainsboro
+#A9BCD0		Pastel Blue
+#58A4B0		Cadet Blue
+#373F51		Charcoal
+#1B1B1E		Eerie Black*/
+
+
+/*Global styles
+_____________________________*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+a {
+    color: #D8DBE2;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 30px;
+    overflow: auto;
+}
+
+
+/*_____Header and Footer_______*/
+
+header,
+footer {
+    background: #373F51;
+    color: #D8DBE2;
+}
+
+header h1,
+header h2 {
+    margin: 0;
+}
+
+
+/*______Header_______________*/
+
+.profile-img {
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+
+/*______Footer_______________*/
+
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+
+/*Work Experience
+______________________________*/
+
+.work {
+    background: #A9BCD0;
+}
+
+
+/*Education
+______________________________*/
+
+.education {
+    background: #A9BCD0;
+}
