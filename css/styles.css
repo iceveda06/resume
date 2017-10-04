@@ -50,13 +50,18 @@ a:hover {
     width: 30%;
     float: left;
     padding-right: 20px;
+    min-height: 120px;
 }
 
 .col-wide {
     width: 70%;
     /*float: left;*/
     padding-left: 20px;
+    min-height: 120px;
 }
+
+
+
 
 
 
@@ -77,11 +82,17 @@ header h2 {
 
 
 
+
+
+
 /*______Header_______________*/
 
 .profile-img {
     border-radius: 20%;
 }
+
+
+
 
 
 
@@ -101,12 +112,18 @@ footer {
 
 
 
+
+
+
 /*Work Experience
 ______________________________*/
 
 .work {
     background: #A9BCD0;
 }
+
+
+
 
 
 
