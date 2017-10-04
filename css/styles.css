@@ -6,8 +6,11 @@
 #1B1B1E		Eerie Black*/
 
 
-/*Global styles
-_____________________________*/
+/*Global styles_____*/
+
+html {
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -43,6 +46,20 @@ a:hover {
     overflow: auto;
 }
 
+.col-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 20px;
+}
+
+.col-wide {
+    width: 70%;
+    /*float: left;*/
+    padding-left: 20px;
+}
+
+
+
 
 /*_____Header and Footer_______*/
 
@@ -58,14 +75,16 @@ header h2 {
 }
 
 
+
+
 /*______Header_______________*/
 
 .profile-img {
-    width: 300px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 20px;
+    border-radius: 20%;
 }
+
+
+
 
 
 /*______Footer_______________*/
@@ -80,12 +99,16 @@ footer {
 }
 
 
+
+
 /*Work Experience
 ______________________________*/
 
 .work {
     background: #A9BCD0;
 }
+
+
 
 
 /*Education
